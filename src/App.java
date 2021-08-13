@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class App {
 
     public static void main(String[] args) throws Exception {
-        System.out.println("Created with OpenWeatherMap /n Created by Jonas Ermert /n - Von welcher Stadt möchten Sie Wetterinformationen erhalten?");
+        System.out.println("Created with OpenWeatherMap \n Created by Jonas Ermert (2021) \n - Von welcher Stadt möchten Sie Wetterinformationen erhalten?");
 
         Scanner input = new Scanner(System.in);
         String city = input.next();
