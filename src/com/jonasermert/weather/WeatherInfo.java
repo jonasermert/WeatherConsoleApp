@@ -4,8 +4,8 @@ import com.jonasermert.weather.utils.WeatherFetcher;
 
 public class WeatherInfo {
 
-    private final String timestamp;
-    private final String temperature;
+    private String timestamp;
+    private String temperature;
 
     public WeatherInfo(String timestamp, String temperature) {
         this.timestamp = timestamp;
