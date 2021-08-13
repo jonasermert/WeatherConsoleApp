@@ -23,7 +23,7 @@ public class WeatherFetcher {
     }
 
     public WeatherInfo[] fetch(String city) throws Exception {
-        String uri = "http://api.openweathermap.org/data/2.5/forecast?q="+ city +"&mode=xml&appid=your OpenWeatherAPIKey";
+        String uri = "http://api.openweathermap.org/data/2.5/forecast?q="+ city +"&mode=xml&appid= INSERT YOUR OpenWeatherAPIKey HERE";
 
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder documentBuilder = factory.newDocumentBuilder();
